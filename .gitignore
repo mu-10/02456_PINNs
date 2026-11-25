@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytype/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging and build output
+.Python
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Common generated deep-learning artifacts
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.npz
+*.npy
+wandb/
+mlruns/
+tensorboard/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
